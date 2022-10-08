@@ -3,7 +3,7 @@ require('settings')
 function love.conf(t)
     t.title = 'LöVE: Space Invaders'
     t.version = 11.3
-    t.console = true
+    t.console = false
     t.window.width = width
     t.window.height = height
     t.window.vsync = 0

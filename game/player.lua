@@ -56,6 +56,6 @@ end
 
 function player:shot()
     if shotPl == 0 then
-        shotPl = shot_load({x = player.x, y = player.y}, true)
+        shotPl = shot_load({x = player.x - player.radius/2, y = player.y}, true)
     end
 end
